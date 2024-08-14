@@ -76,7 +76,7 @@ fetchPopularMovies().then(movies => {
 })
 
 fetchMovieRecommendations(533535).then(movie => {
-    console.log('Recomended Movies:', movie[0]);
+    console.log('Recomended Movies:', movie[5]);
 })
 
 searchMovies("Inception").then(movies => {
